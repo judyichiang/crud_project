@@ -1,0 +1,72 @@
+body {
+  background: #D0E4F5 url("https://images.alphacoders.com/888/thumb-1920-888417.jpg") no-repeat fixed 50% 50%;
+}
+
+.jumbotron {
+  background: rgba(255, 255, 255, 0.5);
+  color: white;
+}
+
+label {
+  font: 1rem 'Fira Sans', sans-serif;
+  width: 110px;
+  padding: 0 6px;
+  text-align: center;
+}
+
+input,
+label {
+  margin: .4rem 0;
+}
+/*
+.page {
+  width: 80%;
+  max-width: 960px;
+  margin: 50px auto;
+  border-radius: 5px;
+} */
+
+body {
+  font: 14px/26px 'Bungee', Helvetica, Arial, sans-serif;
+  color: #222;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+}
+
+/* header {
+  font-size: 24px;
+  line-height: 48px;
+} */
+/*
+h4 {
+  font-size: 21px;
+  font-family: 'Bungee', cursive;
+} */
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+}
+
+.container {
+  /*  margin: 20px;*/
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+
+}
+
+th {
+  border: 2px solid;
+}
+
+table {
+  border: 2px solid black;
+  background: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  text-align: center;
+}
+
+tr {
+  border: 2px solid;
+}

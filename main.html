@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>HREXT Project</title>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron text-center">
+        <div class="page-header">
+          <h1>My Funko Collection List</h1>
+        </div> <!-- page-header -->
+        <p></p>
+
+
+        <div class="container-everything">
+          <div class="container-text">
+            <form id="submit">
+            <label for="name">Name:</label>
+            <input type="text" id="key"><br />
+            <label for="name">Date:</label>
+            <input type="text" id="date"><br />
+            <label for="name">Category:</label>
+            <input type="text" id="category"><br />
+            <label for="name">Group:</label>
+            <input type="text" id="group"><br />
+            <label for="name">Purch Amt:</label>
+            <input type="text" id="purchased"><br />
+            <label for="name">Est Val:</label>
+            <input type="text" id="value">
+
+            <!--       <input name="democheckbox" type="checkbox" id="chase" /> Chase
+      <input name="democheckbox" type="checkbox" id="gitd" /> GITD
+      <input name="democheckbox" type="checkbox" id="le" /> Limited Edition <br /> -->
+          </div> <!-- container-text -->
+
+          <div class="container-button">
+
+            <input class="input-button create" type="button" value="Create">
+            <input class="input-button update" type="button" value="Update">
+            <input class="input-button delete" type="button" value="Delete">
+
+
+            <button id="clearform">Clear Form</button> <br/>
+
+            <input class="input-button clear" type="button" value="Reset">
+            </form>
+
+            <!--       how do i make a refresh button work? from mdn:-->
+            <!--       <input type="reset" value="Reset the form"> -->
+
+
+            <!-- Search button, yes or no? -->
+            <!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search -->
+            <!--       <label for="site-search">Search the site:</label><input type="search" id="site-search" name="q"aria-label="Search through site content">
+      <button>Search</button>
+ -->
+
+          </div> <!-- container-button -->
+        </div> <!-- container-everything -->
+      </div><!--  jumbotron text-center -->
+
+
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Category</th>
+            <th>Group</th>
+            <th>Purch Amt</th>
+            <th>Est Val</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+
+
+
+    </div> <!-- container -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <script src="app/app.js"></script>
+
+  </body>
+
+</html>
