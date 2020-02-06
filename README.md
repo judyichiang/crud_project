@@ -1,2 +1,1 @@
-# hrext_project
-My Funko Collector List
+# My Funko Collector List
