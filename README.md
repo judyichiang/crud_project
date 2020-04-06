@@ -1,2 +1,6 @@
 # hrext_project
-My Funko Collector Lost
+My Funko Collection List
+
+## Preview
+
+![](images/funko.gif)
