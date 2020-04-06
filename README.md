@@ -1,5 +1,5 @@
-# hrext_project
-My Funko Collection List
+# My Funko Collection List
+
 
 ## Preview
 
